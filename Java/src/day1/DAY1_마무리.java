@@ -36,6 +36,5 @@ public class DAY1_마무리 {
 			System.out.println("영어가 아닙니다");
 		}
 		// boolean 과 if문 조합
-				 
 		}
 	}
