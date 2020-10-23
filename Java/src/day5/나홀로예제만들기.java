@@ -22,6 +22,9 @@ public class 나홀로예제만들기 {
 			System.out.println("4.arr1의 4번째자리부터 복사하기");
 			System.out.println("5.arr1의 5번째자리부터 복사하기");
 			System.out.println("6.프로그램 종료하기");
+			for(x=0; x<arr2.length;x++) {
+				arr2[x]=0;
+			}
 			System.out.print("항목을 눌러주세요. : ");
 			x = scan.nextInt();
 			switch(x) {
@@ -33,9 +36,6 @@ public class 나홀로예제만들기 {
 						System.out.print(" "+arr2[x]+" ");
 					}
 					System.out.println("}");
-					for(x=0; x<arr2.length;x++) {
-						arr2[x]=0;
-					}
 					break;
 				}
 				case 2:{
@@ -46,9 +46,6 @@ public class 나홀로예제만들기 {
 						System.out.print(" "+arr2[x]+" ");
 					}
 					System.out.println("}");
-					for(x=0; x<arr2.length;x++) {
-						arr2[x]=0;
-					}
 					break;
 				}
 				case 3:{
@@ -59,9 +56,6 @@ public class 나홀로예제만들기 {
 						System.out.print(" "+arr2[x]+" ");
 					}
 					System.out.println("}");
-					for(x=0; x<arr2.length;x++) {
-						arr2[x]=0;
-					}
 					break;
 				}
 				case 4:{
@@ -72,9 +66,6 @@ public class 나홀로예제만들기 {
 						System.out.print(" "+arr2[x]+" ");
 					}
 					System.out.println("}");
-					for(x=0; x<arr2.length;x++) {
-						arr2[x]=0;
-					}
 					break;
 				}
 				case 5:{
@@ -85,9 +76,6 @@ public class 나홀로예제만들기 {
 						System.out.print(" "+arr2[x]+" ");
 					}
 					System.out.println("}");
-					for(x=0; x<arr2.length;x++) {
-						arr2[x]=0;
-					}
 					break;
 				}
 			}
